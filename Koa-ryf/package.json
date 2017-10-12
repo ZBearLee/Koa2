@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs-promised": "^0.0.2",
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0"
+  }
+}

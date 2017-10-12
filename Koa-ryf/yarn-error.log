@@ -1,0 +1,29 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add koa-route
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Ruby22-x64\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;D:\MongoDB;C:\Program Files (x86)\Microsoft VS Code\bin;D:\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Docker Toolbox\Docker Toolbox
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  7.8.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.62.173:443
+      at Object.exports._errnoException (util.js:1034:11)
+      at exports._exceptionWithHostPort (util.js:1057:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1096:14)
