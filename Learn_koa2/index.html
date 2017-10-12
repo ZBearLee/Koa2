@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Async Await</title>
+</head>
+<body>
+<script>
+'use strict'
+function getSyncTime() {
+  return new Promise((resolve, reject) => {
+    try {
+      let startTime = new Date().getTime()
+      setTimeout(() => {
+        let endTime = new Date().getTime()
+        let data = endTime-startTime
+        resolve(data)
+      }, 500)
+    } catch (err) {
+      reject(err)
+    }
+  })
+}
+
+
+async function getSyncData() {
+  let time = await getSyncTime()
+  console.log(time)
+  // 将会等time的值再接着执行
+  let data = `endTime-startTime=${time}`
+  return data
+}
+
+
+async function getData() {
+  let data = await getSyncData()
+  console.log(data)
+}
+
+getData();
+</script>
+</body>
+</html>
